@@ -1,0 +1,22 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="QDialog",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node14 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="CheckOut",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCheckOut.html",tooltip=" "];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="checkoutWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcheckoutWindow.html",tooltip=" "];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Dialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDialog.html",tooltip=" "];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMenu.html",tooltip=" "];
+  Node14 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="menuWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmenuWindow.html",tooltip=" "];
+  Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="needHelp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classneedHelp.html",tooltip=" "];
+  Node14 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Restaurant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRestaurant.html",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+release/Table.o
+release/checkoutwindow.o
+release/dialog.o
+release/dish.o
+release/main.o
+release/mainwindow.o
+release/order.o
+release/orderqueue.o
+release/restaurant.o
+release/qrc_image.o
+release/moc_checkoutwindow.o
+release/moc_dialog.o
+release/moc_mainwindow.o
+release/moc_restaurant.o

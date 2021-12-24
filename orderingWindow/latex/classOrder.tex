@@ -1,0 +1,264 @@
+\hypertarget{classOrder}{}\doxysection{Order Class Reference}
+\label{classOrder}\index{Order@{Order}}
+
+
+Collaboration diagram for Order\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classOrder_af70a2888ce36110fbe06009be6b1c761}{Order}} (int, int, int)
+\begin{DoxyCompactList}\small\item\em A constructor to initialize the attributes of objects of the class when created Return a \mbox{\hyperlink{classOrder}{Order}} type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}\label{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}} 
+\mbox{\hyperlink{classOrder_a8fb25876ccbd534465f5f96ef9bb2212}{$\sim$\+Order}} ()
+\begin{DoxyCompactList}\small\item\em A destructor to tear things down when objects are destroyed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrder_aff1a4c1305d5965a11a65e79330e0b41}{setprice}} (double)
+\begin{DoxyCompactList}\small\item\em A setter, use it to set price. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOrder_a5fbeaf30b3e0cd21d4e732f7d2eb8df1}{getorder\+ID}} ()
+\begin{DoxyCompactList}\small\item\em A getter, use it to get order ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOrder_a986dea9f3256b2d12d2e364b41b76f78}{get\+State}} ()
+\begin{DoxyCompactList}\small\item\em A getter, use it to get order\textquotesingle{}s state. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOrder_a15874fddac9e820df2bcd4c9c426e382}{gettable\+ID}} ()
+\begin{DoxyCompactList}\small\item\em A getter, use it to get table ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOrder_aee17fb0708e54ebe408d2fc336dcb033}{getdish\+Num}} ()
+\begin{DoxyCompactList}\small\item\em A getter, use it to get the number of ordered dishes. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classOrder_a2abd620862024799d9e8957b6ed1c110}{getprice}} ()
+\begin{DoxyCompactList}\small\item\em A getter, use it to get the price of ordered dishes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classOrder_a86b6148422d4b434908dbffb4a1c5f8f}\label{classOrder_a86b6148422d4b434908dbffb4a1c5f8f}} 
+void \mbox{\hyperlink{classOrder_a86b6148422d4b434908dbffb4a1c5f8f}{get\+Items}} ()
+\begin{DoxyCompactList}\small\item\em print all items\textquotesingle{} names in order \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classOrder_a279f0493cb68ae8c6fe31d5c84c5493a}{getitems\+\_\+str}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classOrder_a279f0493cb68ae8c6fe31d5c84c5493a}{Order\+::getitems\+\_\+str}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrder_a6dd2617ef8c70b23438161bdefcf1a2e}{setorder\+ID}} (int)
+\begin{DoxyCompactList}\small\item\em A setter, use it to set order ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrder_a0227b784bf90cf0e57975e30504b5e1e}{set\+State}} (int)
+\begin{DoxyCompactList}\small\item\em A setter, use it to set order\textquotesingle{}s state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrder_ab2c6ddb6d751065fd2f48a5286fe0344}{settable\+ID}} (int)
+\begin{DoxyCompactList}\small\item\em A setter, use it to set table ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrder_ac0fbb6173b4e8a9dd42f87c9eb59d24d}{push\+Items}} (\mbox{\hyperlink{classDish}{Dish}})
+\begin{DoxyCompactList}\small\item\em push dish to ordereditems \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classOrder_a1a5e8eea2130e10948814abaa295013d}{ordercompare}} (\mbox{\hyperlink{classOrder}{Order}})
+\begin{DoxyCompactList}\small\item\em compare order\+Id \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classOrder_ac63f37e01c073474b65433296f098a9d}\label{classOrder_ac63f37e01c073474b65433296f098a9d}} 
+int {\bfseries order\+ID}
+\item 
+\mbox{\Hypertarget{classOrder_a5051e9b221ee0fa0525f847d403bf58d}\label{classOrder_a5051e9b221ee0fa0525f847d403bf58d}} 
+int {\bfseries order\+State}
+\item 
+\mbox{\Hypertarget{classOrder_af80e8aed5ca2b1231e01e0b665aad24f}\label{classOrder_af80e8aed5ca2b1231e01e0b665aad24f}} 
+int {\bfseries table\+ID}
+\item 
+\mbox{\Hypertarget{classOrder_a32d38ff1354db3bc9dfaa10f3844cd35}\label{classOrder_a32d38ff1354db3bc9dfaa10f3844cd35}} 
+int {\bfseries dish\+Num}
+\item 
+\mbox{\Hypertarget{classOrder_afa854ec4a022a5731ba4ca4f1af1a6dc}\label{classOrder_afa854ec4a022a5731ba4ca4f1af1a6dc}} 
+double {\bfseries total\+Price}
+\item 
+\mbox{\Hypertarget{classOrder_ac5c12449a8f83a6f490b3e8a9c9088fc}\label{classOrder_ac5c12449a8f83a6f490b3e8a9c9088fc}} 
+\mbox{\hyperlink{classDish}{Dish}} $\ast$ {\bfseries ordered\+Items} \mbox{[}100\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOrder_af70a2888ce36110fbe06009be6b1c761}\label{classOrder_af70a2888ce36110fbe06009be6b1c761}} 
+\index{Order@{Order}!Order@{Order}}
+\index{Order@{Order}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{Order()}{Order()}}
+{\footnotesize\ttfamily Order\+::\+Order (\begin{DoxyParamCaption}\item[{int}]{oid,  }\item[{int}]{state,  }\item[{int}]{tid }\end{DoxyParamCaption})}
+
+
+
+A constructor to initialize the attributes of objects of the class when created Return a \mbox{\hyperlink{classOrder}{Order}} type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em oid} & \\
+\hline
+{\em state} & \\
+\hline
+{\em tid} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOrder_aee17fb0708e54ebe408d2fc336dcb033}\label{classOrder_aee17fb0708e54ebe408d2fc336dcb033}} 
+\index{Order@{Order}!getdishNum@{getdishNum}}
+\index{getdishNum@{getdishNum}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getdishNum()}{getdishNum()}}
+{\footnotesize\ttfamily int Order\+::getdish\+Num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A getter, use it to get the number of ordered dishes. 
+
+\begin{DoxyReturn}{Returns}
+order\textquotesingle{}s the number of ordered dishes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a279f0493cb68ae8c6fe31d5c84c5493a}\label{classOrder_a279f0493cb68ae8c6fe31d5c84c5493a}} 
+\index{Order@{Order}!getitems\_str@{getitems\_str}}
+\index{getitems\_str@{getitems\_str}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getitems\_str()}{getitems\_str()}}
+{\footnotesize\ttfamily std\+::string Order\+::getitems\+\_\+str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classOrder_a279f0493cb68ae8c6fe31d5c84c5493a}{Order\+::getitems\+\_\+str}}. 
+
+\begin{DoxyReturn}{Returns}
+items 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a5fbeaf30b3e0cd21d4e732f7d2eb8df1}\label{classOrder_a5fbeaf30b3e0cd21d4e732f7d2eb8df1}} 
+\index{Order@{Order}!getorderID@{getorderID}}
+\index{getorderID@{getorderID}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getorderID()}{getorderID()}}
+{\footnotesize\ttfamily int Order\+::getorder\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A getter, use it to get order ID. 
+
+\begin{DoxyReturn}{Returns}
+order ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a2abd620862024799d9e8957b6ed1c110}\label{classOrder_a2abd620862024799d9e8957b6ed1c110}} 
+\index{Order@{Order}!getprice@{getprice}}
+\index{getprice@{getprice}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getprice()}{getprice()}}
+{\footnotesize\ttfamily double Order\+::getprice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A getter, use it to get the price of ordered dishes. 
+
+\begin{DoxyReturn}{Returns}
+total\+Price 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a986dea9f3256b2d12d2e364b41b76f78}\label{classOrder_a986dea9f3256b2d12d2e364b41b76f78}} 
+\index{Order@{Order}!getState@{getState}}
+\index{getState@{getState}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{getState()}{getState()}}
+{\footnotesize\ttfamily int Order\+::get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A getter, use it to get order\textquotesingle{}s state. 
+
+\begin{DoxyReturn}{Returns}
+order\textquotesingle{}s state 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a15874fddac9e820df2bcd4c9c426e382}\label{classOrder_a15874fddac9e820df2bcd4c9c426e382}} 
+\index{Order@{Order}!gettableID@{gettableID}}
+\index{gettableID@{gettableID}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{gettableID()}{gettableID()}}
+{\footnotesize\ttfamily int Order\+::gettable\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A getter, use it to get table ID. 
+
+\begin{DoxyReturn}{Returns}
+order\textquotesingle{}s table ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_a1a5e8eea2130e10948814abaa295013d}\label{classOrder_a1a5e8eea2130e10948814abaa295013d}} 
+\index{Order@{Order}!ordercompare@{ordercompare}}
+\index{ordercompare@{ordercompare}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{ordercompare()}{ordercompare()}}
+{\footnotesize\ttfamily bool Order\+::ordercompare (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}}}]{order1 }\end{DoxyParamCaption})}
+
+
+
+compare order\+Id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if equal, otherwise false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrder_ac0fbb6173b4e8a9dd42f87c9eb59d24d}\label{classOrder_ac0fbb6173b4e8a9dd42f87c9eb59d24d}} 
+\index{Order@{Order}!pushItems@{pushItems}}
+\index{pushItems@{pushItems}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{pushItems()}{pushItems()}}
+{\footnotesize\ttfamily void Order\+::push\+Items (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDish}{Dish}}}]{dish }\end{DoxyParamCaption})}
+
+
+
+push dish to ordereditems 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dish} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOrder_a6dd2617ef8c70b23438161bdefcf1a2e}\label{classOrder_a6dd2617ef8c70b23438161bdefcf1a2e}} 
+\index{Order@{Order}!setorderID@{setorderID}}
+\index{setorderID@{setorderID}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{setorderID()}{setorderID()}}
+{\footnotesize\ttfamily void Order\+::setorder\+ID (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+A setter, use it to set order ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOrder_aff1a4c1305d5965a11a65e79330e0b41}\label{classOrder_aff1a4c1305d5965a11a65e79330e0b41}} 
+\index{Order@{Order}!setprice@{setprice}}
+\index{setprice@{setprice}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{setprice()}{setprice()}}
+{\footnotesize\ttfamily void Order\+::setprice (\begin{DoxyParamCaption}\item[{double}]{p }\end{DoxyParamCaption})}
+
+
+
+A setter, use it to set price. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOrder_a0227b784bf90cf0e57975e30504b5e1e}\label{classOrder_a0227b784bf90cf0e57975e30504b5e1e}} 
+\index{Order@{Order}!setState@{setState}}
+\index{setState@{setState}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{setState()}{setState()}}
+{\footnotesize\ttfamily void Order\+::set\+State (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+A setter, use it to set order\textquotesingle{}s state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOrder_ab2c6ddb6d751065fd2f48a5286fe0344}\label{classOrder_ab2c6ddb6d751065fd2f48a5286fe0344}} 
+\index{Order@{Order}!settableID@{settableID}}
+\index{settableID@{settableID}!Order@{Order}}
+\doxysubsubsection{\texorpdfstring{settableID()}{settableID()}}
+{\footnotesize\ttfamily void Order\+::settable\+ID (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+A setter, use it to set table ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+order.\+h\item 
+order.\+cpp\end{DoxyCompactItemize}

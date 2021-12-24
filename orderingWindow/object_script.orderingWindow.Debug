@@ -1,0 +1,14 @@
+debug/Table.o
+debug/checkoutwindow.o
+debug/dialog.o
+debug/dish.o
+debug/main.o
+debug/mainwindow.o
+debug/order.o
+debug/orderqueue.o
+debug/restaurant.o
+debug/qrc_image.o
+debug/moc_checkoutwindow.o
+debug/moc_dialog.o
+debug/moc_mainwindow.o
+debug/moc_restaurant.o

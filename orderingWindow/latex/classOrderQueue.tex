@@ -1,0 +1,142 @@
+\hypertarget{classOrderQueue}{}\doxysection{Order\+Queue Class Reference}
+\label{classOrderQueue}\index{OrderQueue@{OrderQueue}}
+
+
+This is the orderqueue header file.  
+
+
+
+
+{\ttfamily \#include $<$orderqueue.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classOrderQueue_a9ebd61576e96adb890fc94ffb2d4c459}{getsize}} ()
+\begin{DoxyCompactList}\small\item\em get size of order queue \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classOrderQueue_afc69ea0f3e7fccc63e9781251ec4caaf}{displayorders\+\_\+str}} ()
+\begin{DoxyCompactList}\small\item\em display all orders in string type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classOrderQueue_a7dcc311beade6893f2a11c8413a0b823}\label{classOrderQueue_a7dcc311beade6893f2a11c8413a0b823}} 
+void \mbox{\hyperlink{classOrderQueue_a7dcc311beade6893f2a11c8413a0b823}{displayorders}} ()
+\begin{DoxyCompactList}\small\item\em display all orders \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrderQueue_ab930caff3032d46719838b713fba1e21}{appendorder}} (\mbox{\hyperlink{classOrder}{Order}})
+\begin{DoxyCompactList}\small\item\em add new order into orderqueue \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classOrderQueue_afa0c5e01a14bedccd92b36de17c7fd21}\label{classOrderQueue_afa0c5e01a14bedccd92b36de17c7fd21}} 
+void \mbox{\hyperlink{classOrderQueue_afa0c5e01a14bedccd92b36de17c7fd21}{poporder}} ()
+\begin{DoxyCompactList}\small\item\em pop orders \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOrderQueue_a44e06c1a9c4a9ff14a1e6c8072cdb705}{hurry}} (\mbox{\hyperlink{classOrder}{Order}})
+\begin{DoxyCompactList}\small\item\em put the oder in the front of orderqueue \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOrder}{Order}} \mbox{\hyperlink{classOrderQueue_ac085d06e09b249ec4e7b6030da317661}{findorderbytableid}} (int)
+\begin{DoxyCompactList}\small\item\em find the order by table id \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOrder}{Order}} \mbox{\hyperlink{classOrderQueue_af510855e33247b2b744ec5afe338e0b7}{get\+Head}} ()
+\begin{DoxyCompactList}\small\item\em get the first element of order queue \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classOrderQueue_a704892addd9188e1396b2bb572e6bec1}\label{classOrderQueue_a704892addd9188e1396b2bb572e6bec1}} 
+std\+::queue$<$ \mbox{\hyperlink{classOrder}{Order}} $>$ {\bfseries orderqueue}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the orderqueue header file. 
+
+\begin{DoxyAuthor}{Author}
+Ziqin Shang 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOrderQueue_ab930caff3032d46719838b713fba1e21}\label{classOrderQueue_ab930caff3032d46719838b713fba1e21}} 
+\index{OrderQueue@{OrderQueue}!appendorder@{appendorder}}
+\index{appendorder@{appendorder}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{appendorder()}{appendorder()}}
+{\footnotesize\ttfamily void Order\+Queue\+::appendorder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}}}]{neworder }\end{DoxyParamCaption})}
+
+
+
+add new order into orderqueue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em neworder} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOrderQueue_afc69ea0f3e7fccc63e9781251ec4caaf}\label{classOrderQueue_afc69ea0f3e7fccc63e9781251ec4caaf}} 
+\index{OrderQueue@{OrderQueue}!displayorders\_str@{displayorders\_str}}
+\index{displayorders\_str@{displayorders\_str}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{displayorders\_str()}{displayorders\_str()}}
+{\footnotesize\ttfamily std\+::string Order\+Queue\+::displayorders\+\_\+str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+display all orders in string type 
+
+\begin{DoxyReturn}{Returns}
+orders\+\_\+str 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrderQueue_ac085d06e09b249ec4e7b6030da317661}\label{classOrderQueue_ac085d06e09b249ec4e7b6030da317661}} 
+\index{OrderQueue@{OrderQueue}!findorderbytableid@{findorderbytableid}}
+\index{findorderbytableid@{findorderbytableid}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{findorderbytableid()}{findorderbytableid()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOrder}{Order}} Order\+Queue\+::findorderbytableid (\begin{DoxyParamCaption}\item[{int}]{tableid }\end{DoxyParamCaption})}
+
+
+
+find the order by table id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tableid} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a empty order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrderQueue_af510855e33247b2b744ec5afe338e0b7}\label{classOrderQueue_af510855e33247b2b744ec5afe338e0b7}} 
+\index{OrderQueue@{OrderQueue}!getHead@{getHead}}
+\index{getHead@{getHead}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOrder}{Order}} Order\+Queue\+::get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the first element of order queue 
+
+\begin{DoxyReturn}{Returns}
+the first element of order queue 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrderQueue_a9ebd61576e96adb890fc94ffb2d4c459}\label{classOrderQueue_a9ebd61576e96adb890fc94ffb2d4c459}} 
+\index{OrderQueue@{OrderQueue}!getsize@{getsize}}
+\index{getsize@{getsize}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{getsize()}{getsize()}}
+{\footnotesize\ttfamily int Order\+Queue\+::getsize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get size of order queue 
+
+\begin{DoxyReturn}{Returns}
+size of order queue 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classOrderQueue_a44e06c1a9c4a9ff14a1e6c8072cdb705}\label{classOrderQueue_a44e06c1a9c4a9ff14a1e6c8072cdb705}} 
+\index{OrderQueue@{OrderQueue}!hurry@{hurry}}
+\index{hurry@{hurry}!OrderQueue@{OrderQueue}}
+\doxysubsubsection{\texorpdfstring{hurry()}{hurry()}}
+{\footnotesize\ttfamily void Order\+Queue\+::hurry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOrder}{Order}}}]{priorityorder }\end{DoxyParamCaption})}
+
+
+
+put the oder in the front of orderqueue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em priorityorder} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+orderqueue.\+h\item 
+orderqueue.\+cpp\end{DoxyCompactItemize}

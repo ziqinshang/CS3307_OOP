@@ -1,0 +1,142 @@
+\hypertarget{classTable}{}\doxysection{Table Class Reference}
+\label{classTable}\index{Table@{Table}}
+
+
+This is the description for table.\+cpp file.  
+
+
+
+
+{\ttfamily \#include $<$Table.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTable_aea4a248daf4059a8e775fa1e6150a9dc}{Table}} (int, int, double)
+\begin{DoxyCompactList}\small\item\em Constructor for table class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTable_a9a559f2e7beb37b511ee9f88873164f8}\label{classTable_a9a559f2e7beb37b511ee9f88873164f8}} 
+\mbox{\hyperlink{classTable_a9a559f2e7beb37b511ee9f88873164f8}{$\sim$\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for table class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOrder}{Order}} \mbox{\hyperlink{classTable_a427a8e0047a054ca03f95becffd98ae5}{neworder}} (int)
+\begin{DoxyCompactList}\small\item\em initialize and return a empty order, this order is under this specific table \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classTable_a67651890cea71d00cea2a54e0a1cb260}\label{classTable_a67651890cea71d00cea2a54e0a1cb260}} 
+void {\bfseries hurry} (int)
+\item 
+void \mbox{\hyperlink{classTable_ad2fb4a68cca75ea57c5c76757c532b5c}{tips}} (double)
+\begin{DoxyCompactList}\small\item\em adding tips into total table price \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classTable_a22df359c3c69b3373d28def9fd7019fa}{checkout}} ()
+\begin{DoxyCompactList}\small\item\em return table price \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTable_aa7789bb25d6da70321109d21d8a98338}{set\+Price}} (double)
+\begin{DoxyCompactList}\small\item\em set table price \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTable_a12ba9b2e06561aa933a77059fb02e3af}\label{classTable_a12ba9b2e06561aa933a77059fb02e3af}} 
+int {\bfseries table\+ID}
+\item 
+\mbox{\Hypertarget{classTable_aa91c09ff2c0679d75e6d73c69f6b4d51}\label{classTable_aa91c09ff2c0679d75e6d73c69f6b4d51}} 
+int {\bfseries tablestate}
+\item 
+\mbox{\Hypertarget{classTable_a48307b0e5d015e96ca31eb255fed778a}\label{classTable_a48307b0e5d015e96ca31eb255fed778a}} 
+double {\bfseries tableprice}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the description for table.\+cpp file. 
+
+\begin{DoxyAuthor}{Authors}
+Ziqin Shang 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTable_aea4a248daf4059a8e775fa1e6150a9dc}\label{classTable_aea4a248daf4059a8e775fa1e6150a9dc}} 
+\index{Table@{Table}!Table@{Table}}
+\index{Table@{Table}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{Table()}{Table()}}
+{\footnotesize\ttfamily Table\+::\+Table (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{int}]{state,  }\item[{double}]{price }\end{DoxyParamCaption})}
+
+
+
+Constructor for table class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em state} & \\
+\hline
+{\em price} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTable_a22df359c3c69b3373d28def9fd7019fa}\label{classTable_a22df359c3c69b3373d28def9fd7019fa}} 
+\index{Table@{Table}!checkout@{checkout}}
+\index{checkout@{checkout}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{checkout()}{checkout()}}
+{\footnotesize\ttfamily double Table\+::checkout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+return table price 
+
+\begin{DoxyReturn}{Returns}
+tableprice 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTable_a427a8e0047a054ca03f95becffd98ae5}\label{classTable_a427a8e0047a054ca03f95becffd98ae5}} 
+\index{Table@{Table}!neworder@{neworder}}
+\index{neworder@{neworder}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{neworder()}{neworder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOrder}{Order}} Table\+::neworder (\begin{DoxyParamCaption}\item[{int}]{ordernum }\end{DoxyParamCaption})}
+
+
+
+initialize and return a empty order, this order is under this specific table 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ordernum} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+tmporder 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTable_aa7789bb25d6da70321109d21d8a98338}\label{classTable_aa7789bb25d6da70321109d21d8a98338}} 
+\index{Table@{Table}!setPrice@{setPrice}}
+\index{setPrice@{setPrice}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{setPrice()}{setPrice()}}
+{\footnotesize\ttfamily void Table\+::set\+Price (\begin{DoxyParamCaption}\item[{double}]{p }\end{DoxyParamCaption})}
+
+
+
+set table price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classTable_ad2fb4a68cca75ea57c5c76757c532b5c}\label{classTable_ad2fb4a68cca75ea57c5c76757c532b5c}} 
+\index{Table@{Table}!tips@{tips}}
+\index{tips@{tips}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{tips()}{tips()}}
+{\footnotesize\ttfamily void Table\+::tips (\begin{DoxyParamCaption}\item[{double}]{tip }\end{DoxyParamCaption})}
+
+
+
+adding tips into total table price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tip} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Table.\+h\item 
+Table.\+cpp\end{DoxyCompactItemize}

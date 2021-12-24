@@ -1,0 +1,55 @@
+\hypertarget{classCheckOut}{}\doxysection{Check\+Out Class Reference}
+\label{classCheckOut}\index{CheckOut@{CheckOut}}
+
+
+Inheritance diagram for Check\+Out\+:
+% FIG 0
+
+
+Collaboration diagram for Check\+Out\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCheckOut_a08d1bf0dfddb31e13ae035d4b4c28203}\label{classCheckOut_a08d1bf0dfddb31e13ae035d4b4c28203}} 
+{\bfseries Check\+Out} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classOrderQueue}{Order\+Queue}} $>$ q, Q\+Widget $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCheckOut_a6cbb6c7317dc65c4371a3bdba694aff5}\label{classCheckOut_a6cbb6c7317dc65c4371a3bdba694aff5}} 
+void {\bfseries handle\+\_\+hurry\+\_\+button\+\_\+1} ()
+\item 
+\mbox{\Hypertarget{classCheckOut_ac10a43c4cc91c53b7d14ce5f4b3367fa}\label{classCheckOut_ac10a43c4cc91c53b7d14ce5f4b3367fa}} 
+void {\bfseries handle\+\_\+hurry\+\_\+button\+\_\+2} ()
+\item 
+\mbox{\Hypertarget{classCheckOut_a26ac07b4999bd0fcec6f1925d3350549}\label{classCheckOut_a26ac07b4999bd0fcec6f1925d3350549}} 
+void {\bfseries on\+\_\+checkout\+\_\+clicked} ()
+\item 
+\mbox{\Hypertarget{classCheckOut_a327305832e9ea27cc69eefb46bce834d}\label{classCheckOut_a327305832e9ea27cc69eefb46bce834d}} 
+void {\bfseries on\+\_\+submit\+\_\+clicked} ()
+\item 
+\mbox{\Hypertarget{classCheckOut_a05ba7f39eac6c5025341a06fe48fb886}\label{classCheckOut_a05ba7f39eac6c5025341a06fe48fb886}} 
+void {\bfseries percent\+\_\+clicked} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCheckOut_a2513da83fac9ed515c33813d1d1bee95}\label{classCheckOut_a2513da83fac9ed515c33813d1d1bee95}} 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classOrderQueue}{Order\+Queue}} $>$ {\bfseries q\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classCheckOut_ac75eab74e9c9eb67615a6b0dbafde529}\label{classCheckOut_ac75eab74e9c9eb67615a6b0dbafde529}} 
+Q\+Push\+Button $\ast$ {\bfseries hurry\+\_\+button}
+\item 
+\mbox{\Hypertarget{classCheckOut_a3cbf9d1729809f5887adb0d36ebcc656}\label{classCheckOut_a3cbf9d1729809f5887adb0d36ebcc656}} 
+Q\+Push\+Button $\ast$ {\bfseries needhelp\+\_\+button}
+\item 
+\mbox{\Hypertarget{classCheckOut_a405d472aa54d25ad54b329bca6931a6e}\label{classCheckOut_a405d472aa54d25ad54b329bca6931a6e}} 
+Q\+Push\+Button $\ast$ {\bfseries checkout\+\_\+button}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+checkout.\+h\item 
+checkout.\+cpp\end{DoxyCompactItemize}
