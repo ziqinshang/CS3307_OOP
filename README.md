@@ -1,7 +1,4 @@
 # CS3307_OOP
-## Individual assignment
-### A simple program that allows users to execute UNIX commands and display the command results and return codes accordingly
-![CommandGUI](https://github.com/ziqinshang/CS3307_OOP/blob/photo/commandgui.png?raw=true)
 ## Interactive food-ordering system : Description
 ### Required features:
 #### 1.Account Setting
@@ -54,6 +51,12 @@
 #### Description: When generating a new order, i.e. pressing + - button in dialog page, it is ok to make the items display on the right changes as desired, and it is also ok to create a new order by "SUBMIT" botton that contains a dish that has never been added before. However, after the order is submitted, the items display on the dialog page will not clear, and the dishs ordered before must exist at least one. For example, if you have two coffees in the item display, and you submitted this order, when you are trying to create another new order by pressing "submit", you can delete one coffee, but you must leave one in the display, otherwise the system will crash. This bug applies to other dishes too. Super weird bug, limited lots of functionality.
 #### Trigger: Press "SUBMIT" button at dialog UI
 #### Potential Reason: UNKNOWN
+## Images
 ![Restaurant](https://github.com/ziqinshang/CS3307_OOP/blob/photo/restaurant.png?raw=true)
 ![Menu](https://github.com/ziqinshang/CS3307_OOP/blob/photo/menu.png?raw=true)
 ![Mainwindow](https://github.com/ziqinshang/CS3307_OOP/blob/photo/mainwindow.png?raw=true)
+![Checkout](https://github.com/ziqinshang/CS3307_OOP/blob/photo/checkout.png?raw=true)
+
+## Individual assignment
+### A simple program that allows users to execute UNIX commands and display the command results and return codes accordingly
+![CommandGUI](https://github.com/ziqinshang/CS3307_OOP/blob/photo/commandgui.png?raw=true)
